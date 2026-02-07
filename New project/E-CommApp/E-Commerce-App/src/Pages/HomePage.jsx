@@ -22,7 +22,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="right-section">
-                    <a className="orders-link header-link" href="order">
+                    <a className="orders-link header-link" href="Orders">
 
                         <span className="orders-text">Orders</span>
                     </a>
