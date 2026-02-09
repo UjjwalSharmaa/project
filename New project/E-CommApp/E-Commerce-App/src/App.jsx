@@ -11,6 +11,7 @@ function App() {
       <Route path="checkout" element={<Checkout />}/>
       <Route path="orders" element={<Orders />}/>
       <Route path="tracking" element={<Tracking/>}/>
+      <Route path="*" element={<h1>404 Not Found</h1>}/>
     </Routes>
   )
 }

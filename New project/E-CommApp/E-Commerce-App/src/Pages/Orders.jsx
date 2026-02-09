@@ -1,11 +1,13 @@
 import Header from '../components/Header';  
 import "./orders.css"
+import Orderimage from "../assets/Images/orders-favicon.png"
 
 
 const Orders = () => {
     return (
         <>
         <title>Ecommerce Project- Orders</title>
+        <link rel="icon" type="image/svg+xml" href={Orderimage} />
         <Header></Header>
 
             <div className="orders-page">

@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Tracking.css";
 import  Header  from '../components/Header'
+import TrackingImage from "../assets/Images/tracking-favicon.png";
 
 const Tracking = () => {
     return (
         <>
             <title>Ecommerce Project- Tracking</title>
-
+            <link rel="icon" type="image/svg+xml" href={TrackingImage} />
             <Header></Header>
 
             <div className="tracking-page">

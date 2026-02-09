@@ -1,11 +1,13 @@
 import React from 'react'
 import  Header  from "../components/Header";
 import "./HomePage.css";
+import HomeImage from "../assets/Images/home-favicon.png";
 
 const HomePage = () => {
     return (
         <>
             <title>Ecommerce Project</title>
+            <link rel="icon" type="image/svg+xml" href={HomeImage} />
             <Header></Header>
             <div className="home-page">
                 <div className="products-grid">
